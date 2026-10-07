@@ -17,7 +17,7 @@
             return fraseNormalizada === fraseInvertida;
         }
     
-        console.log(esPalindromo("Salas"));               // true
+        console.log(esPalindromo("1990"));               // true
         console.log(esPalindromo("Hola Mundo"));          // false
 }
 
