@@ -40,3 +40,12 @@ daw-javascript/
 ├── actividades/
 │   └── js/
 └── js/
+La carpeta `js` contiene ejemplos y apuntes prácticos sobre los conceptos trabajados durante el curso.
+
+La carpeta `actividades` contiene ejercicios realizados durante las clases y prácticas del módulo.
+
+## Objetivo
+
+Este repositorio refleja mi progreso aprendiendo JavaScript y aplicando sus fundamentos mediante ejercicios prácticos durante 2º de DAW.
+
+El objetivo es mejorar progresivamente mi capacidad para resolver problemas, escribir código más limpio y desarrollar aplicaciones web de forma autónoma.
