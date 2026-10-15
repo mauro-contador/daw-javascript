@@ -7,12 +7,12 @@
 
         let hoy = new Date();
 
-        let edad = hoy.getFullYear - fechaNac.getFullYear; 
+        let edad = hoy.getFullYear() - fechaNac.getFullYear(); 
 
-        let diferenciaMes = hoy.getMonth - fechaNac.getMonth;
+        let diferenciaMes = hoy.getMonth() - fechaNac.getMonth();
 
 
-        if (diferenciaMes < 0 || diferenciaMes === 0 && hoy.getDate < fechaNac.getDate){
+        if (diferenciaMes < 0 || diferenciaMes === 0 && hoy.getDate() < fechaNac.getDate()){
             edad--;
         }
 
