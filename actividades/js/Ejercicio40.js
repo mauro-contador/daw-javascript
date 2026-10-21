@@ -12,11 +12,4 @@ let mes1 = 12;
 let año1 = 2001;
 
 console.log(formatearEdad(dia1,mes1,año1));
-
-
-
-
-
-
-
 }
