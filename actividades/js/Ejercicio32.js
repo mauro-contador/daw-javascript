@@ -5,10 +5,10 @@ consonantes, pe. miFuncion("Hola Mundo") devuelva Vocales: 4, Consonantes: 5 */
 function contarVocalesYConsonantes(palabra){
     let contadorVocales = 0;
     let contadorConsonantes = 0;
-    palabra = palabra.replace(" ","");
-    let palabraArray = palabra.trim("");
-    for(let i=0; i<palabraArray.length;i++){
-        if(palabraArray[i] === 'a' || palabraArray[i] === 'e'|| palabraArray[i] === 'i' ||palabraArray[i] === 'o' || palabraArray[i] === 'u'){
+    palabra = palabra.replaceAll(" ","");
+    palabraMinuscula = palabra.toLowerCase();
+    for(let i=0; i<palabraMinuscula.length;i++){
+        if(palabraMinuscula[i] === 'a' || palabraMinuscula[i] === 'e'|| palabraMinuscula[i] === 'i' ||palabraMinuscula[i] === 'o' || palabraMinuscula[i] === 'u'){
             contadorVocales++;
         }else{
             contadorConsonantes++;
@@ -17,8 +17,5 @@ function contarVocalesYConsonantes(palabra){
     return "Hay "+ contadorVocales + " vocales y "+contadorConsonantes + " consonantes";
 }
 console.log(contarVocalesYConsonantes("hola mundo soy mauro"));
-
-
-
 
 }
