@@ -4,7 +4,7 @@
 guión alto y bajo+@+caracteres, números+.+al menos dos caracteres.*/
 {
 function validarEmail( email){
-    const validar = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.+[a-zA-Z]{2,}/;
+    const validar = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.+[a-zA-Z]{2,}$/;
     return validar.test(email);
 }
 
