@@ -26,5 +26,5 @@
             anioNacimiento : anio
         };
     }
-    console.log(analizarNacimiento("01/10/2007"))
+    console.log(analizarNacimiento("01/10/2007"));
 }
