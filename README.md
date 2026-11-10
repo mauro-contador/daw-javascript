@@ -1,51 +1,45 @@
-# JavaScript - DAW
+# JavaScript · Desarrollo Web en Entorno Cliente (DAW)
 
-Repositorio académico con ejercicios y prácticas realizados durante
-el módulo de Desarrollo Web en Entorno Cliente de 2º de Desarrollo
-de Aplicaciones Web (DAW).
+Repositorio académico con ejercicios y apuntes de **2.º de Desarrollo de Aplicaciones Web**. Lo utilizo para guardar el trabajo de clase, practicar por mi cuenta y observar mi progreso.
 
-## Contenidos
-
-Durante el curso estoy trabajando conceptos fundamentales de JavaScript como:
-
-- Variables y constantes
-- Tipos primitivos
-- Conversión y coerción de tipos
-- Operadores
-- Entrada y salida de datos
-- Manejo de errores con `try...catch`
-- Funciones
-- Funciones flecha
-- Funciones recursivas
-- Strings
-- Expresiones regulares
-- Objetos
-- Arrays
-- Ordenación de arrays
-- Date
-- Math
-- Timers
-
-## Tecnologías
-
-- JavaScript
-- HTML
-- Git
-- GitHub
-
-## Estructura
+## Organización real del repositorio
 
 ```text
 daw-javascript/
-├── actividades/
+├── Tema1/
+│   ├── Actividad_Evaluable/
+│   ├── Apuntes/
+│   ├── actividades/
+│   └── actividades_repaso/
+├── Tema2/
+│   ├── index.html
+│   ├── indexEventos.html
+│   ├── 1.document.js
+│   ├── 2.seleccionElementos.js
+│   ├── 3.crearElementos.js
+│   ├── 4.crearElementosConAtributos.js
+│   ├── 5.insertarElementosEnDom.js
+│   ├── 6.eliminarElementosDelDom.js
+│   ├── 7.navegarPorElementosDelDom.js
+│   ├── 8.eventos.js
+│   ├── 9.objetoEvent.js
 │   └── js/
-└── js/
-La carpeta `js` contiene ejemplos y apuntes prácticos sobre los conceptos trabajados durante el curso.
+└── README.md
+```
 
-La carpeta `actividades` contiene ejercicios realizados durante las clases y prácticas del módulo.
+## Contenidos
 
-## Objetivo
+- **Tema 1:** fundamentos de JavaScript y ejercicios de lógica; variables, condiciones, bucles, funciones, arrays, objetos y otros conceptos trabajados en clase.
+- **Tema 2:** trabajo con el DOM; selección, creación, inserción y eliminación de elementos, navegación y eventos.
 
-Este repositorio refleja mi progreso aprendiendo JavaScript y aplicando sus fundamentos mediante ejercicios prácticos durante 2º de DAW.
+## Cómo trabajo
 
-El objetivo es mejorar progresivamente mi capacidad para resolver problemas, escribir código más limpio y desarrollar aplicaciones web de forma autónoma.
+Guardo los ejercicios tal como los voy desarrollando y revisando. Algunos archivos son actividades de aprendizaje, no aplicaciones terminadas.
+
+Para trabajar desde el ordenador de clase y el de casa utilizo el **mismo repositorio** en ambos equipos:
+
+1. **Antes de empezar:** traer los cambios de GitHub con *Pull* (en VS Code: Control de código fuente).
+2. **Durante la sesión:** editar y guardar normalmente.
+3. **Al terminar:** revisar los archivos, crear un commit con un mensaje descriptivo y pulsar *Sincronizar cambios* para subirlos.
+
+**Objetivo:** mejorar de forma progresiva mi lógica, capacidad de depuración y autonomía programando.
