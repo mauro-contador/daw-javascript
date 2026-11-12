@@ -38,8 +38,9 @@ Guardo los ejercicios tal como los voy desarrollando y revisando. Algunos archiv
 
 Para trabajar desde el ordenador de clase y el de casa utilizo el **mismo repositorio** en ambos equipos:
 
-1. **Antes de empezar:** traer los cambios de GitHub con *Pull* (en VS Code: Control de código fuente).
+1. **Antes de empezar:** traer los cambios de GitHub con _Pull_ (en VS Code: Control de código fuente).
 2. **Durante la sesión:** editar y guardar normalmente.
-3. **Al terminar:** revisar los archivos, crear un commit con un mensaje descriptivo y pulsar *Sincronizar cambios* para subirlos.
+3. **Al terminar:** revisar los archivos, crear un commit con un mensaje descriptivo y pulsar _Sincronizar cambios_ para subirlos.
 
 **Objetivo:** mejorar de forma progresiva mi lógica, capacidad de depuración y autonomía programando.
+Prueba de sincronización entre el instituto y casa.
