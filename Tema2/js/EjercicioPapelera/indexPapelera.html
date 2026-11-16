@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelera Drag and Drop</title>
+
+    <style>
+        .papel {
+            width: 120px;
+            cursor: grab;
+        }
+
+        .papelera {
+            width: 180px;
+            display: block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <img
+        src="./bolaPapel.jpg"
+        class="papel"
+        draggable="true"
+        alt="Bola de papel"
+    >
+
+    <img
+        src="./PapeleraVacia.png"
+        class="papelera"
+        alt="Papelera vacía"
+    >
+
+    <script src="./EjercicioPapelera.js"></script>
+</body>
+</html>
