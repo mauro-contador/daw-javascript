@@ -36,4 +36,9 @@
             }
         });
     })
+    botonReset.addEventListener("click",() =>{
+        celdas.forEach(celda =>{
+            celda.style.backgroundColor = "";
+        })
+    })
 }
